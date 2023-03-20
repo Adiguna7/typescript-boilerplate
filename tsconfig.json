@@ -1,0 +1,40 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "declarationMap": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "esModuleInterop": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "src/types"
+        ],
+        "rootDir": "src",
+        "outDir": "dist",
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "composite": true
+    }
+}
